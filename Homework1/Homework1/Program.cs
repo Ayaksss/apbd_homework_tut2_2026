@@ -8,3 +8,6 @@ static double CalculateAverage(int[] values)
 int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
 Console.WriteLine(CalculateAverage(numbers));
+
+
+Console.WriteLine(CalculateAverage(numbers) + " is the array avarage");
