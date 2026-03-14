@@ -11,7 +11,8 @@ Console.WriteLine(CalculateAverage(numbers));
 
 static double CalculateMax(int[] values)
 {
-    return values.Sum() / values.Length;
+    Console.WriteLine("(feature-conflict) Max is: " + values.Max());
+    return values.Max();
 }
 
 public static int CalculateMin(int[] values) 
