@@ -8,3 +8,8 @@ static double CalculateAverage(int[] values)
 int[] numbers = {1, 2, 3, 4, 5};
 
 Console.WriteLine(CalculateAverage(numbers));
+
+public static int CalculateMin(int[] values) 
+{
+    return values.Min(); 
+}
