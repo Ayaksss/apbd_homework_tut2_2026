@@ -12,6 +12,7 @@ Console.WriteLine(CalculateAverage(numbers));
 static double CalculateMax(int[] values)
 {
     Console.WriteLine("(main second try) Max is: " + values.Max());
+    Console.WriteLine("(feature-conflict second try) Max is: " + values.Max());
     return values.Max();
 }
 
