@@ -13,3 +13,8 @@ static double CalculateMax(int[] values)
 {
     return values.Sum() / values.Length;
 }
+
+public static int CalculateMin(int[] values) 
+{
+    return values.Min(); 
+}
