@@ -16,5 +16,6 @@ static double CalculateMax(int[] values)
 
 public static int CalculateMin(int[] values) 
 {
+    Console.WriteLine("Min is: " + values.Min());
     return values.Min(); 
 }
